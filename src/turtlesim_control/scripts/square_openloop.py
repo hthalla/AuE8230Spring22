@@ -1,14 +1,21 @@
 #! /usr/bin/env python3
+"""
+    This enables the turtle in turtlesim to move in a square path (open-loop control).
+"""
+
+import time
 
 import rospy
 from geometry_msgs.msg import Twist
-import time
 
 def square_openloop():
+    """
+        Funciton to navigate the turtle in square(openloop).
+    """
     rospy.init_node("square_openloop", anonymous=True)
     rospy.loginfo("Turtle started running in square (open-loop control)")
     vel_pub=rospy.Publisher("/turtle1/cmd_vel", Twist, queue_size=10)
-    
+
     lin_vel=Twist()
     lin_vel.linear.x = 0.2
     ang_vel=Twist()
@@ -16,14 +23,13 @@ def square_openloop():
 
     lin = 1
     st=time.time()
-
     while not rospy.is_shutdown():
-        if lin==1:        
+        if lin==1:
             vel_pub.publish(lin_vel)
-            if time.time()-st>=10:                
+            if time.time()-st>=10:
                 lin=0
                 st=time.time()
-        if lin==0:
+        else:
             vel_pub.publish(ang_vel)
             if time.time()-st>=7.82:
                 lin=1
