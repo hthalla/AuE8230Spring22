@@ -1,2 +1,0 @@
-assignment2
--DCATKIN_DEVEL_PREFIX=/home/gupta/git_ws/AuE8230Spring22_Prasanna_Gupta/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/gupta/git_ws/AuE8230Spring22_Prasanna_Gupta/catkin_ws/install -G Unix Makefiles
