@@ -7,9 +7,8 @@ Required Package: Gazebo <br>
 This package contains 4 different routines performed on the Turtlebot3 Burger in Gazebo Simulation.
 
 ### How to Run
-Clone the repository. <br>
+Clone the repository and follow the instructions in top-level README file.
 ```
-$ catkin_make
 $ roslaunch turtlebot3_control circle.launch # Replace the launch file name with any other
 ```
 

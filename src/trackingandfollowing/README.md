@@ -21,9 +21,8 @@ Prerequisite:
 This package contains one routine performed on the Turtlebot3 Burger in Gazebo Simulation and two routines implemented to perform in the Real life.
 
 ### How to Run
-Clone the repository.
+Clone the repository and follow the instructions in top-level README file.
 ```
-$ catkin_make_isolated
 $ roslaunch trackingandfollowing turtlebot3_follow_line.launch # Replace the launch file name with any other
 ```
 ### Special Instructions for AprilTag tracker - Routine 3:
