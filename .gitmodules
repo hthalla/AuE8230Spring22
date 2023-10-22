@@ -1,3 +1,6 @@
+[submodule "group7_ws/src/darknet_ros"]
+	path = group7_ws/src/darknet_ros
+	url = https://github.com/leggedrobotics/darknet_ros
 [submodule "src/apriltag_ros"]
 	path = src/apriltag_ros
 	url = https://github.com/AprilRobotics/apriltag_ros
