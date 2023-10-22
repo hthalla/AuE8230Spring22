@@ -6,10 +6,7 @@ ROS Version: Noetic <br>
 This package contains three routines performed on the turtle in Turtlesim Simulation.
 
 ### How to Run
-Clone the repository.
-```
-$ catkin_make
-```
+Clone the repository and follow the instructions in top-level README file.
 
 ### Please follow the below steps to run the simulations
 1. Launch files have been created for all three scripts (circle.py, square_openloop.py, square_closedloop.py) by the names circle.launch, square_openloop.launch, square_closedloop.launch respectively.

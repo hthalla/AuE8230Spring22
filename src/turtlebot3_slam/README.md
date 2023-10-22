@@ -8,9 +8,8 @@ Required Packages: <br>
 This package contains one routine performed on the Turtlebot3 Burger in Gazebo Simulation and two routines implemented to perform in the real life.
 
 ### How to Run
-Clone the repository.
+Clone the repository and follow the instructions in top-level README file.
 ```
-$ catkin_make
 $ roslaunch turtlebot3_slam gazebo_slam_LDS.launch # Replace the launch file name with any other
 ```
 ### Standard Routine to be followed when running on realbot
