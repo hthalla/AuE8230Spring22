@@ -16,13 +16,15 @@ $ roslaunch turtlebot3_control circle.launch # Replace the launch file name with
 ### Demo
 All programs run in the Gazebo Simulation Environment
 1. circle.py: Run the turtlebot in a circle
-![](screenshot/hw3_circle.png)
+![](images/hw3_circle.png)
 2. square.py: Run the turtlebot in 2x2 square with linear velocity = 0.3 and angular velocity = 0.3 
-![](screenshot/hw3_square.png)
+![](images/hw3_square.png)
 3. move.launch: Requires use input in lanch for argument 'code' that will then pick any of the above scripts to run.
-  $ roslaunch assignment3_turtlebot3 move.launch code:=square
+```
+$ roslaunch turtlebot3_control move.launch code:=square
+```
 4. emergency_stop.py: Turtlebot performs an 'emergency breaking' maneuver when detected an obstacle in its path using LIDAR scan.
-![](screenshot/hw3_emergency_stop.png)
+![](images/hw3_emergency_stop.png)
 
 ### Demo Videos
 Videos folder inside the package contains demo runs of all three scripts.
