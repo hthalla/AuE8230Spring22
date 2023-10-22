@@ -1,0 +1,7 @@
+<launch>
+	<arg name="slam_methods" default="karto"/>
+	
+	
+	<include file="$(find turtlebot3_teleop)/launch/turtlebot3_teleop_key.launch"/>
+	<include file="$(find turtlebot3_slam)/launch/turtlebot3_slam.launch" args="-slam_methods $(arg slam_methods)"/>
+</launch>

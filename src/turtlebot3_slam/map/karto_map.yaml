@@ -1,0 +1,7 @@
+image: src/turtlebot3_slam/map/karto_map.pgm
+resolution: 0.050000
+origin: [-3.330803, -0.313077, 0.000000]
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.196
+
